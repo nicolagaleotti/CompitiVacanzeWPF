@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vacanze"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="494.802" Width="633.968">
     <Grid>
-        
+        <Label Content="a:" HorizontalAlignment="Left" Margin="76,59,0,0" VerticalAlignment="Top"/>
+        <Label Content="b:" HorizontalAlignment="Left" Margin="75,108,0,0" VerticalAlignment="Top"/>
+        <Label Content="c:" HorizontalAlignment="Left" Margin="77,167,0,0" VerticalAlignment="Top"/>
+        <Label Content="value:" HorizontalAlignment="Left" Margin="54,220,0,0" VerticalAlignment="Top"/>
+        <Label Content="number:" HorizontalAlignment="Left" Margin="42,275,0,0" VerticalAlignment="Top"/>
+        <Label Content="number1:" HorizontalAlignment="Left" Margin="34,328,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txta" HorizontalAlignment="Left" Height="26" Margin="155,59,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtb" HorizontalAlignment="Left" Height="26" Margin="155,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="Txtb_TextChanged"/>
+        <TextBox Name="txtc" IsReadOnly="True" HorizontalAlignment="Left" Height="26" Margin="155,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtvalue" HorizontalAlignment="Left" Height="26" Margin="155,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtnumber" HorizontalAlignment="Left" Height="26" Margin="155,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="Txtnumber_TextChanged"/>
+        <TextBox Name="txtnumber1" IsReadOnly="True" HorizontalAlignment="Left" Height="26" Margin="155,328,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btn" Content="CALCOLA" HorizontalAlignment="Left" Margin="77,396,0,0" VerticalAlignment="Top" Width="132" Height="37" Click="Btn_Click"/>
+        <Label Name="lbla" Content="" HorizontalAlignment="Left" Margin="349,59,0,0" VerticalAlignment="Top" Width="196"/>
+        <Label Name="lblb" Content="" HorizontalAlignment="Left" Margin="349,108,0,0" VerticalAlignment="Top" Width="196"/>
+        <Label Name="lblc" Content="" HorizontalAlignment="Left" Margin="349,167,0,0" VerticalAlignment="Top" Width="196"/>
+        <Label Name="lblvalue" Content="" HorizontalAlignment="Left" Margin="349,220,0,0" VerticalAlignment="Top" Width="196"/>
+        <Label Name="lblnumber" Content="" HorizontalAlignment="Left" Margin="349,275,0,0" VerticalAlignment="Top" Width="196"/>
+
     </Grid>
 </Window>
