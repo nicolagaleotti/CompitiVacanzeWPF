@@ -23,7 +23,7 @@
         <Label Name="lbla" Content="" HorizontalAlignment="Left" Margin="349,59,0,0" VerticalAlignment="Top" Width="196"/>
         <Label Name="lblb" Content="" HorizontalAlignment="Left" Margin="349,108,0,0" VerticalAlignment="Top" Width="196"/>
         <Label Name="lblc" Content="" HorizontalAlignment="Left" Margin="349,167,0,0" VerticalAlignment="Top" Width="196"/>
-        <Label Name="lblvalue" Content="" HorizontalAlignment="Left" Margin="349,220,0,0" VerticalAlignment="Top" Width="196"/>
+        <Label Name="lblvalue" Content="" HorizontalAlignment="Left" Margin="349,220,0,0" VerticalAlignment="Top" Width="239"/>
         <Label Name="lblnumber" Content="" HorizontalAlignment="Left" Margin="349,275,0,0" VerticalAlignment="Top" Width="196"/>
 
     </Grid>
